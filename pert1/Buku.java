@@ -1,5 +1,10 @@
 public class Buku{
 	String judul;
 	String penulis;
-	int tahu;
+	int tahun;
+	public Buku(){
+		this.judul="Java Programming";
+		this.penulis="Agung Sedayu";
+		this.tahun=2021;
+	}
 }
