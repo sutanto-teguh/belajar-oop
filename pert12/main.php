@@ -1,14 +1,7 @@
-<?php require "controller_.php"; ?>
-<!doctype html>
-<html>
-<head>
-</head>
-<body>
-<p>
-BMW <?=$carsReviewed["Bmw"]["model"]?> is
-<?=$carsReviewed["Bmw"]["expensiveOrNot"]?>
-while Audi<?=$carsReviewed["Audi"]["model"]?> is
-<?=$carsReviewed["Audi"]["expensiveOrNot"]?>.
-</p>
-</body>
-</html>
+<?PHP
+require 'UI.php';
+UI::setTitle("Resto Ayam Geprek");
+UI::setHeader("Program Resto");
+echo "<p>Selamat datang di program restoran Ayam Geprek</p>";
+UI::setFooter("by Teguh Sutanto");
+?>
