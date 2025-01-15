@@ -4,7 +4,7 @@ Tentu! Berikut adalah contoh kode program PHP menggunakan pendekatan Object-Orie
 
 ### Struktur Direktori
 ```
-/mvc
+/ayamgeprek
 |-- /controllers
 |   |-- ProductController.php
 |-- /models
