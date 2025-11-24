@@ -1,7 +1,7 @@
 # Contoh Program Quiz
 ![Contoh Program](https://github.com/sutanto-teguh/belajar-oop/blob/main/pert10/ContohQuiz1.png)
 
-'''php
+```php
 // 1. Buat Soal-soal (Objek Question)
 $q1 = new Soal(
     "Apa ibu kota Indonesia?",
