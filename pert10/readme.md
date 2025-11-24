@@ -1,8 +1,23 @@
 # Contoh Program Quiz
 ![Contoh Program](https://github.com/sutanto-teguh/belajar-oop/blob/main/pert10/ContohQuiz1.png)
 
+Potongan Class Soal
+```PHP
+class Soal {
+    private $text;
+    private $options;
+    private $correctAnswerKey;
+
+   public function __construct(string $text, array $options, string $correctAnswerKey) {
+        $this->text = $text;
+        $this->options = $options;
+        $this->correctAnswerKey = strtoupper($correctAnswerKey);
+    }
+```
+Contoh Pembuatan Objej
+
 ```php
-// 1. Buat Soal-soal (Objek Question)
+// 1. Buat Soal-soal (Objek Soal)
 $q1 = new Soal(
     "Apa ibu kota Indonesia?",
     ['A' => 'Jakarta', 'B' => 'Surabaya', 'C' => 'Bandung', 'D' => 'Medan'],
