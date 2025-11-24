@@ -14,7 +14,7 @@ class Soal {
         $this->correctAnswerKey = strtoupper($correctAnswerKey);
     }
 ```
-Contoh Pembuatan Objej
+Contoh Pembuatan Objek Soal
 
 ```php
 // 1. Buat Soal-soal (Objek Soal)
@@ -41,3 +41,4 @@ $q4 = new Soal(
     ['A' => '24', 'B' => '16', 'C' => '20', 'D' => '14'],
     'B' // (Prioritas operasi: 4*2 = 8, lalu 8+8 = 16)
 );
+```
