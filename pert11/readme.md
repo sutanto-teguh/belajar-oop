@@ -1,4 +1,4 @@
-## **Modul: Pengenalan JSON dan Implementasi di PHP CLI**
+## **Modul: Pengenalan JSON dan Implementasi di PHP**
 
 ### **Tujuan Pembelajaran**
 
