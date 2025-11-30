@@ -1,7 +1,3 @@
-Berikut adalah rancangan **modul pengenalan JSON dan cara baca/tulis JSON menggunakan PHP dalam aplikasi console (CLI)** yang bisa Anda gunakan:
-
-***
-
 ## **Modul: Pengenalan JSON dan Implementasi di PHP CLI**
 
 ### **Tujuan Pembelajaran**
