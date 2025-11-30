@@ -154,7 +154,7 @@ switch ($action) {
 
 ***
 
-### **7. Latihan**
+### **7. Latihan (Pengayaan)**
 
 *   Buat file `data.json` berisi daftar mahasiswa.
 *   Tulis script untuk menambahkan mahasiswa baru via CLI.
